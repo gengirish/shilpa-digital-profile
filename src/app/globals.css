@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neural-bg: #030014;
+  --color-neural-surface: #0f0f23;
+  --color-neural-card: #1a1a2e;
+  --color-neural-border: #16213e;
+  --color-neural-cyan: #00d4ff;
+  --color-neural-purple: #7c3aed;
+  --color-neural-pink: #f472b6;
+  --color-neural-green: #34d399;
+  --color-neural-amber: #fbbf24;
+}
+
+body {
+  background-color: var(--color-neural-bg);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color-neural-cyan), var(--color-neural-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass {
+  background: rgba(15, 15, 35, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-neural-border);
+}
+
+.glass-card {
+  background: var(--color-neural-card);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-neural-border);
+  border-radius: 1rem;
+}
+
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3), 0 0 40px rgba(0, 212, 255, 0.1);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.3), 0 0 40px rgba(124, 58, 237, 0.1);
+}
