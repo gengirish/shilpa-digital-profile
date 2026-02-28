@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Senior DevOps Engineer with over 4 years of experience specializing in AWS Cloud and DevOps practices.",
   keywords: ["DevOps", "AWS", "CI/CD", "Terraform", "Jenkins", "Cloud Computing"],
   authors: [{ name: "Shilpa Girish Hiremath", url: "https://www.linkedin.com/in/shilpa-girish-hiremath-4b935919b/" }],
-  metadataBase: new URL("https://portfolio.local"),
+  metadataBase: new URL("https://shilpa-girish-digital.vercel.app"),
   openGraph: {
     title: "Shilpa Girish Hiremath | Senior DevOps Engineer Portfolio",
     description: "Senior DevOps Engineer with over 4 years of experience specializing in AWS Cloud and DevOps practices.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Senior DevOps Engineer with over 4 years of experience specializing in AWS Cloud and DevOps practices.",
   },
   alternates: {
-    canonical: "https://portfolio.local"
+    canonical: "https://shilpa-girish-digital.vercel.app"
   }
 };
 
